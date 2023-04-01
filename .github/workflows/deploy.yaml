@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          # path: './pokeDex/dist'
+          path: './dist'
           # ACTIONS_RUNNER_DEBUG: true
       - name: Deploy to GitHub Pages
         id: deployment
