@@ -52,7 +52,7 @@ jobs:
         with:
           # Upload dist repository
           # path: './pokeDex/dist'
-          ACTIONS_RUNNER_DEBUG: true
+          # ACTIONS_RUNNER_DEBUG: true
       - name: Deploy to GitHub Pages
         id: deployment
         # path: './pokeDex/dist'
